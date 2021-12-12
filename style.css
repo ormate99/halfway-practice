@@ -1,0 +1,89 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E6E6E6;
+    text-align: center;
+    padding-top: 100px;
+    color: #39B69F;
+}
+
+h1 {
+    font-size: 24px;
+    letter-spacing: 0.2em;
+    color: #138073;
+    font-weight: bolder;
+    padding-bottom: 15px;
+}
+
+#root {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+button {
+    background-color: #39B69F;
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    color: white;
+    height: 75px;
+    width: 300px;
+    margin-top: 45px;
+
+    border:none;
+    border: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+
+}
+
+#form div {
+    padding: 10px;
+
+}
+
+#name, #email {
+    height: 60px;
+    width: 500px;
+}
+
+div input {
+    padding-left: 30px;
+}
+
+#box {
+    height: 20px;
+    width: 20px;
+}
+
+
+
+#labelthree {
+    font-weight: 200px;
+}
+
+::placeholder {
+    color: #138073;
+}
+
+
+
+@media only screen and (max-width: 550px) {
+    #name, #email {
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 70%;
+    }
+
+    h1 {
+        text-align: end;
+        margin-right: 40px;
+    }
+
+    #labelthree {
+        text-align: start;
+    }
+
+    button {
+        margin-top: 25px;
+    }
+}
